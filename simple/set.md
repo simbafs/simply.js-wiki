@@ -25,6 +25,7 @@ Set `option key` to `val`
 ## Available Options ##
 
 |   key      |   val      |
+|------------|------------|
 |   :---:    |   :---:    |
 | promptChar | string     |
 | splitChar  | atring     |
