@@ -19,8 +19,8 @@ simple.login(token);
 ## `simple.on(key, fn(msg, arg));` ##
 ### key : string (required) ###
 ### fn : function (required) ###
-#### > msg : [Message class](https://discord.js.org/#/docs/main/stable/class/Message) ####
-#### > arg : array ####
-When receive `key`, call fn with `msg`, `arg`  
+#### >> msg : [Message class](https://discord.js.org/#/docs/main/stable/class/Message) ####
+#### >> arg : array ####
+When receive `key`, call fn(msg, arg)   
 msg is the origin object from [discord.js](https://discord.js.org/#/docs/main/stable/class/Message),
 arg is a array contain parsed command and arguments => `[cmd, arg1, arg2, arg3 ......]`
