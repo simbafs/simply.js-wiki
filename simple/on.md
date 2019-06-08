@@ -28,5 +28,5 @@ simple.login(token);
 ---
 
 When receive `key`, call fn(msg, arg)   
-msg is the origin object from [discord.js](https://discord.js.org/#/docs/main/stable/class/Message),
-arg is a array contain parsed command and arguments => `[cmd, arg1, arg2, arg3 ......]`
+`msg` is the origin object from [discord.js](https://discord.js.org/#/docs/main/stable/class/Message),
+`arg` is a array contain parsed command and arguments => `[cmd, arg1, arg2, arg3 ......]`
