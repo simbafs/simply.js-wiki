@@ -9,8 +9,7 @@ simple.login(token);
 ## `simple.echo(req, res);` ##
 ### req : string (required) ###
 ### res : string (required) ###
-當收到命令 `req` 時 `res`  
-簡單的幫助訊息
+當收到命令 `req` 時回覆 `res`   
 ---
 #### 幫助訊息 ####
 ```js
