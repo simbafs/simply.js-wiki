@@ -8,8 +8,8 @@ with npm:
 `npm install simba-fs/simple`
 ---
 # Document #
-[simple](./simple.md)  
-
+[wiki](./simple.md)  
+[中文](./zh/simple.md)  
 
 # Code #
 [simple](https://github.com/simba-fs/simple)
