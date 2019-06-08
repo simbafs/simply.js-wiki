@@ -1,4 +1,4 @@
-# simple.login #
+# simple.login() : fn(token) #
 ```js
 var simple = require('simple');
 //...your code here...
