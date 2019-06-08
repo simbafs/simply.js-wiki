@@ -27,6 +27,6 @@ simple.login(token);
 
 ---
 
-When receive `key`, call fn(msg, arg)   
-msg is the origin object from [discord.js](https://discord.js.org/#/docs/main/stable/class/Message),
-arg is a array contain parsed command and arguments => `[cmd, arg1, arg2, arg3 ......]`
+當收到命令 `key` 時，呼叫 `fn(msg, arg)`  
+`msg` 是 [discord.js](https://discord.js.org/#/docs/main/stable/class/Message) 的 `message` 物件  
+`arg` 是包含已解析的命令的陣列，他長的像這樣 `[cmd, arg1, arg2, arg3 ......]`

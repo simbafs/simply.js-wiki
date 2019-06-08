@@ -9,10 +9,10 @@ simple.login(token);
 ## `simple.echo(req, res);` ##
 ### req : string (required) ###
 ### res : string (required) ###
-When receive `req`, response `res`
-a simple way to create a small chat bot and help information
+當收到命令 `req` 時 `res`  
+簡單的幫助訊息
 ---
-#### help information ####
+#### 幫助訊息 ####
 ```js
 var simple = require('simple');
 
