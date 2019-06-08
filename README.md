@@ -7,4 +7,4 @@ with npm:
 `npm install simba-fs/simple`
 ---
 # Document #
-[simple](./simple)
+[simple](./simple.md)
