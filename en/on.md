@@ -11,8 +11,11 @@ simple.login(token);
 ## simple.login(event, fn); ##
 ### event : string (required) ###
 ### fn : function (require) ###
-registe a event
-available events：
+
+registe a event  
+
+### available events：  ###
+
 |   events   |   description  |
 |    :---:   |      :---:     |
 |   ready    |    trigger     |
