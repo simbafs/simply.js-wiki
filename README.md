@@ -8,7 +8,7 @@ with npm:
 `npm install simba-fs/simple`
 ---
 
-# Document #
+# Language #
 [wiki](./simple.md)  
 [中文](./README-zh-TW.md)  
 
