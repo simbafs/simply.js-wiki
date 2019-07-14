@@ -1,8 +1,8 @@
-# simple.on() : fn(key, fn(msg, arg)) #
+# simple.cmd() : fn(key, fn(msg, arg)) #
 ```js
 var simple = require('simple');
 //...your code here...
-simple.on('sum', function(msg, arg){
+simple.cmd('sum', functicmd(msg, arg){
 	if(arg.length == 1){
 		msg.reply('WRONG: at least a number');
 	}else{
@@ -16,9 +16,9 @@ simple.on('sum', function(msg, arg){
 simple.login(token);
 ```
 ---
-## `simple.on(key, fn(msg, arg));` ##
+## `simple.cmd(key, fn(msg, arg));` ##
 ### key : string (required) ###
-### fn : function (required) ###
+### fn : functicmd (required) ###
 
 ---
 

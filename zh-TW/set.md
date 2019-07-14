@@ -25,7 +25,7 @@ simple.set('splitChar', ':');
 ## 可用的設定值 ##
 
 |   key      |   val      |
-|   :----:   |   :----    |
-| promptChar | string     |
-| splitChar  | atring     |
-| activity   | string     |
+|   :----:   |   :----:   |
+| promptChar |   string   |
+| splitChar  |   atring   |
+| activity   |   string   |
