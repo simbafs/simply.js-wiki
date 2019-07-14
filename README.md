@@ -25,10 +25,11 @@ simple.echo('ping', 'pong');
 simple.login('./your/token/');
 ```
 ---
-###[login](./en/login.md)### => login with `token`   
-###[echo](./en/echo.md)### => when receive `req`, response with `res`  
-###[cmd](./en/cmd.md)### => add a command  
-###[set](./en/set.md)### => set the config  
-###[client](#)### => origin client object [client on djs](https://discord.js.org/#/docs/main/stable/class/Client)  
-###[ready](./en/ready.md)### => ready  
-###[on](./en/on.md)### => events register
+
+### [login](./en/login.md) ### => login with `token`   
+### [echo](./en/echo.md) ### => when receive `req`, response with `res`  
+### [cmd](./en/cmd.md) ### => add a command  
+### [set](./en/set.md) ### => set the config  
+### [client](#) ### => origin client object [client on djs](https://discord.js.org/#/docs/main/stable/class/Client)  
+### [ready](./en/ready.md) ### => ready  
+### [on](./en/on.md) ### => events register
