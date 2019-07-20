@@ -2,14 +2,14 @@
 ```js
 var simple = require('simple');
 
-simple.set('promptChar', '/');
+simple.set('prefix', '/');
 simple.set('splitChar', ' ');
 //your command will like => /sum 1 2 3 4 5
 ```
 ```js
 var simple = require('simple');
 
-simple.set('promptChar', 'e/');
+simple.set('prefix', 'e/');
 simple.set('splitChar', ':');
 //your command will like => e/sum:1:2:3:4:5
 
@@ -26,6 +26,6 @@ Set `option key` to `val`
 
 |   key      |   val      |
 |   :----:   |   :----    |
-| promptChar | string     |
+| prefix | string     |
 | splitChar  | atring     |
 | activity   | string     |
