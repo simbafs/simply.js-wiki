@@ -1,11 +1,8 @@
-# Welcome to the simple wiki! #    
-bug report please use [issue](https://github.com/simba-fs/simple/issues)    
+# Welcome to the simply.js wiki! #    
+bug report please use [issue](https://github.com/simba-fs/simply.js/issues)    
 thank you for using my library   
 
----
-# Install #  
-with npm:   
-`npm install simba-fs/simple`
+[![NPM](https://nodei.co/npm/simply.js.png)](https://nodei.co/npm/simply.js/)
 ---
 
 # Language #
@@ -13,13 +10,13 @@ with npm:
 [中文](./README-zh-TW.md)  
 
 # Code #
-[simple](https://github.com/simba-fs/simple)
+[simple](https://github.com/simba-fs/simply.js)
 
 ---
 
-## simple ##  
+## simply.js ##  
 ```js
-var simple = require('simple');
+var simply = require('simply.js');
 simple.echo('ping', 'pong');
 
 simple.login('./your/token/');
